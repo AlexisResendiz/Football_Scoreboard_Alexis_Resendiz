@@ -27,8 +27,8 @@ class Team
     void setCoachName(string cN) { coachName = cN; }
     void setCity(string c) { city = c; }
     void setHome(bool h) { home = h; }
-    double getScore() const { return score; }
-    double getTimeout() const { return timeout; }
+    int getScore() const { return score; }
+    int getTimeout() const { return timeout; }
     string getName() const { return name; }
     string getCoachName() const { return coachName; }
     string getCity() const { return city; }
@@ -42,6 +42,20 @@ class Scoreboard
     int down;
     int yards;
     bool poss;
+  public:
+    Scoreboard()
+    {
+      quarter = 1;
+      down = 1;
+      yards = 10;
+      poss = true;
+    }
+    void setQuarter(int q) { quarter = q; }
+    void setDown(int d) { down = d; }
+    void setYards(int y) { yards = y; }
+    void setPoss(bool p) { poss = p; }
+    int getQuarter() const { return quarter; }
+
 };
 
 int main() 
