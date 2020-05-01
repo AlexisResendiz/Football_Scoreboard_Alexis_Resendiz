@@ -1,4 +1,4 @@
-//Alexis Resendiz, COSC-1437, 04/17/2020, Dr_T
+//Alexis Resendiz, COSC-1437, 04/17/2020, Dr_T, TCC
 //Learning how to use class
 //I learned how the set and get work from working on this project
 #include <iostream>
